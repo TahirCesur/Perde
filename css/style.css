@@ -1,0 +1,529 @@
+body {
+    /*padding-top: 50px;
+    padding-bottom: 20px;*/
+    font-family: 'Bree Serif', serif !important;
+    font-size: 13px;
+    color:#666;
+    padding-bottom: 10px;
+}
+
+p {
+    color: #7E7E7E;
+    font-size: 13px;
+}
+
+.contact .list-inline-item a{
+    font-size: 16px;
+    color:#752F09!important;
+}
+
+/*topbar sosyal medya ikonu ve tel*/
+a, a:hover {
+    text-decoration: none;
+}
+
+/*Menü İsimleri*/
+.header li a {
+    font-size: 16px;
+    color: #752F09!important;
+}
+
+.header li a:hover,
+.contact a:hover {
+    color : #8b6655!important;
+}
+
+.bgblue {
+    background-color: #deb887;
+    color:#752F09!important;
+}
+
+.container-fluid a{
+    color:#752F09!important;
+}
+
+.navbar-brand {
+    font-size: 20px;
+}
+
+.navbar-nav .nav-item .dropdown-menu li{
+	background-color: #752E07e0;
+    color:#fffdd0!important;
+    font-size: 13px;
+}
+
+.navbar-nav .dropdown-item:hover{
+	background-color: #fffdd0;
+    color: #64280c!important;
+    font-size: 16px;
+}
+
+.card-title h6{
+    color:#752F09!important;
+}
+.header-top {
+    border-bottom: 1px solid #fffdd0;
+}
+
+.header-top ul li {
+    border-left: 1px solid #fffdd0;
+    padding: 4px 10px 4px;
+    margin: 0px !important;
+
+}
+
+.header-top ul li:last-child {
+    border-right: 1px solid #fffdd0;
+}
+
+.resimSlider {
+    height: 500px;
+}
+
+.iletisim ,  .iletisim span a{
+    font-size: 19px;
+    color: #64280c;
+    border-color: #64280c!important;
+}
+
+.iletisim .fas {
+    color: #64280c!important;
+}
+
+.iletisim .border {
+    border-radius: 5px;
+    border-color: #64280c!important;
+}
+
+.iletisim form .text {
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 2px 1px rgb(0, 0, 0);
+}
+
+/*
+.burger-icon {
+    @include burger(25px, 3px, 5px, #222);
+}
+.circle.is-active .burger-icon {
+    @include burger-to-cross;
+}
+
+/* user profile*/
+.top-user-img {
+	border: 1px solid;
+    border-radius: 1px;
+    height: 21px;
+    width: 21px;
+}
+
+header .navbar:nth-of-type(1) .dropdown-menu {
+	top:64px;
+}
+
+header .dropdown-item {
+	padding:5px 20px;
+    color:rgb(5, 5, 5);
+    font-size: 13px;
+}
+
+header .navbar:nth-of-type(1) .dropdown-item:hover {
+    color:#020202;
+}
+
+header .navbar:nth-of-type(1) .dropdown-item:active {
+    color:#fff;
+}
+
+/*dropdpwn menüdeki logo düzenlemesi*/
+.top-user .dropdown-menu i{
+    font-size: 13px;
+    width: 19px;
+}
+
+header .dropdown-menu {
+    border-color: #64280c;
+    border-image: none;
+    border-radius: 0 0 2px 2px!important;
+    border-style: solid none none;
+    border-width: 2px medium medium;
+    box-shadow: 0 0 23px rgba(69,102,173,0.23);
+    margin: 0;
+}
+header .dropdown-item {
+	padding: 5px 20px!important;
+    color: #000000;
+	font-size: 13px;
+}
+/* profile end */
+
+
+/* ÜRÜNLER BAŞLANGIÇ */
+.bg-custom-light {
+    background-color: #f5f5f5;
+    /* background-color: #e7f3ff; */
+}
+.product-tabs ul.nav .active {
+	color: #fff!important;
+    background: #deb887;
+}
+
+.product-tabs ul.nav .active {
+	color: #fff!important;
+    background: #deb887;
+    border-radius: 3px;
+}
+
+.product-tabs .card .card-footer {
+	background:transparent;
+	border-top:0;
+}
+
+.product-tabs .tikle {
+    color:#752f09;
+}
+
+.card-price {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.card-price .price-old {
+	color: #878787;
+    text-decoration: line-through; /*üzerini çizer rakamın*/
+    font-weight: 500;
+}
+
+.card:hover {
+	box-shadow: 0px 2px 10px 0px rgba(49,57,66,0.12);
+}
+
+.owl-trigger {
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+   /*  background: #222; */
+    opacity: 0.5;
+    display: grid;
+    grid-auto-flow: column;
+    z-index: 2;
+}
+.owl-trigger li {
+    /* border: 1px solid purple; */
+    position: relative;
+    z-index: 3;
+	list-style:none;
+}
+
+.btn-default {
+    color:#fff;
+    background-color:#81ad08;
+    border: 1px solid #81ad08;
+    text-transform: capitalize;
+}
+
+.btn-default:hover {
+    color:#fff;
+    background-color: #000;
+    border: 1px solid #000;
+}
+
+/*oneproduct start*/
+span.text-danger{
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: .07em;
+}
+
+.countdown .item {
+    display: inline-block;
+    margin: 7px;
+}
+
+.countdown .item .days,
+.countdown .item .hours,
+.countdown .item .minutes,
+.countdown .item .seconds
+{
+    width: 48px;
+    height: 48px;
+    margin-bottom: 5px;
+    border: 1px solid #e1e7ec;
+    border-radius: 7px;
+    font-size: 22px;
+    line-height: 46px;
+}
+
+.oneproduct-img {
+    width: 100%;
+    height: 100%;
+    background-size: cover!important;
+}
+
+/* ÜRÜNLER BİTİŞ */
+
+/* BENGİ BAKLAVA SLİDER BAŞLANGIÇ */
+
+.heading {
+    border-bottom: 1px solid #e6e6e6;
+    position: relative;
+    padding: 0 0 12px;
+	margin: 0 auto 15px;
+    color: #292929;
+    font-size:20px;
+	font-weight:600;
+    text-transform: uppercase;
+}
+
+.heading:after {
+    border-bottom: 2px solid #81ad08;
+    content: "";
+    position: absolute;
+	bottom: -1px;
+    width: 60px;
+    left: 0;
+}
+
+.product-carousel .product-image {
+    position: relative;
+	cursor:pointer;
+	border: 1px solid #ededed;
+}
+
+.product-carousel .img-hover {
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    -webkit-opacity: 0;
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: all 500ms ease 0s;
+    -moz-transition: all 500ms ease 0s;
+    -o-transition: all 500ms ease 0s;
+    transition: all 500ms ease 0s;
+}
+
+.product-carousel .product-image:hover .img-hover {
+	opacity: 1;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    -khtml-opacity: 1;
+}
+
+.product-carousel .btn-group {
+	width:156px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom:40%; 
+	margin:0 auto;
+
+    -moz-transform: translateY(-40px);
+    -webkit-transform: translateY(-40px);
+    -o-transform: translateY(-40px);
+    -ms-transform: translateY(-40px);
+    transform: translateY(-40px);
+    
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    opacity: 0;
+}
+
+.product-carousel .btn-group a {
+	border-radius: 50%;
+	width: 42px;
+    height: 42px;
+	line-height: 42px;
+	text-align: center;
+	background: #fff;
+	margin: 0 5px;
+}
+
+.product-carousel .item:hover .btn-group {
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+    transform: translateY(0px);
+    opacity: 1;
+
+}
+
+.product-carousel .btn-group a:hover {
+	background:#ff7474;
+	color:#fffdd0;
+}
+
+.product-carousel h4 a {
+	color: #979797;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 400;
+    padding-bottom: 7px;
+    letter-spacing: .5px;
+}
+
+.customNavigation button {
+    background: #64280c;
+    color: #fffdd0;
+    -webkit-transition: all 0.5s ease;
+    -webkit-transition-delay: 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+}
+.customNavigation button:hover {
+	background: #64280c;
+	color:#fffdd0;
+}
+
+.owl-carousel .img-fluid {
+    height: 250px;
+}
+
+
+.latest-blog span {
+    color:#64280c;
+}
+
+.latest-blog .product-image:hover .img-hover {
+	opacity: 1;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    -khtml-opacity: 1;
+}
+
+.latest-blog .img-hover {
+	left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    -webkit-opacity: 0;
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: all 500ms ease 0s;
+    -moz-transition: all 500ms ease 0s;
+    -o-transition: all 500ms ease 0s;
+    transition: all 500ms ease 0s;
+}
+
+.latest-blog .post-text {
+	position:absolute;
+	bottom: 0;
+    /*taptaze efekt YAZISI İÇİN*/
+    transform: translateY(10%);
+    transition: all 1.5s;
+	background: #f8f8f8;
+	padding-left: 15px;
+	width:100%;
+}
+.latest-blog .post-text h5 a{
+	color: #2f2f2f;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 400;
+    padding-bottom: 7px;
+    letter-spacing: 0.5px;
+	text-transform:uppercase;
+}
+.latest-blog p.desc {
+	font-size: 16px;
+    color: #717171;
+	font-weight:300;
+	letter-spacing: 0.5px;
+}
+/*SARI RENKLİ HERGÜN YAZISI İÇİN*/
+.latest-blog .bloginfo {
+    position: absolute;
+    left: 4px;
+    top: -20px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    transition: all 0.5s;
+	font-weight:600;
+	padding:6px;
+	font-size: 14px;
+    line-height: 18px;
+	color:#fffdd0;
+}
+
+.latest-blog .item {
+	position: relative;
+	overflow:hidden;
+}
+.latest-blog .item:hover .post-text {
+	transform: translateY(0px);
+    background: rgba(248,248,248,0.9);
+}
+.latest-blog .item:hover .bloginfo {
+	background: #fc3;
+    box-shadow: 4px 4px 4px -2px rgba(0,0,0,0.2);
+	color:#000;
+}
+
+/* BENGİ BAKLAVA SLİDER BİTİŞ */
+
+/* FOOTER BAŞLANGIÇ */
+
+.footer-menu .foot {
+    color:#64280c;
+    text-shadow: 3px 2px 1px rgb(255, 255, 255);
+}
+
+footer h5 {
+    color: #64280c !important;
+    font-weight: 600;
+}
+footer .footerdesc {
+    color: #666666a2;
+}
+
+footer .social a {
+	color: #deb887;
+    display: block;
+    font-size: 18px;
+    line-height: 34px;
+    width: 35px;
+    height: 35px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    background-color: #b2b2b2;
+	text-align:center;
+	transition:500ms;
+}
+
+footer .social a:hover {
+	background-color: #64280c;
+}
+footer h5 {
+    text-transform: uppercase;
+    color: #000;
+    margin: 0 0 15px 0;
+}
+.footer-menu a {
+	color: #666;
+	font-size: 14px;
+    line-height: 25px;
+	transition: all 0.45s cubic-bezier(0.165,0.84,0.44,1) 0s;
+}
+
+.footer-menu a:hover {
+	padding-left:10px;
+    color:#64280c;
+}
+
+/* FOOTER BİTİŞ */
+

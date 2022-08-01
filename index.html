@@ -1,0 +1,659 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Site Sayfa Başlığı-->
+    <title>Efendioğlu Tekstil</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    
+    <!--JQuery nice-select Kodları-->
+    <link rel="stylesheet" type="text/css" href="plugins/jquery-nice-select/css/nice-select.css">
+    
+    <!--Burger menü Kodları-->
+    <link rel="styleshee" type="text/css" href="plugins/burger.css">
+
+    <!-- Owl-carousel -->
+    <link rel="stylesheet" href="plugins/owlcarousel/owl.carousel.css">
+    <link rel="stylesheet" href="plugins/owlcarousel/owl.theme.default.css">
+
+   <!--Animate Kodları-->
+   <link rel="styleshee" type="text/css" href="plugins/animate.css/animate.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <!--Google Font Kodları-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+
+    <!--Font-awesome Kodları-->
+    <link rel="stylesheet" href="fa-6.1-free/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/91498e01ef.js" crossorigin="anonymous"></script>
+  
+    <!--Css Dosyaları Ekleme-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+   
+  </head>
+
+<body>
+
+    <!-- Menü Kısmı Başlangıç-->
+    <!-- navbar-light bg-light olan yeri navbar-dark bg-dark olarak yeniledik-->
+    <!-- navbar-dark bg-dark yanına da fixed-top eklersek sticky sabit olur-->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bgblue fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="" alt="" width="0" height="0" class="d-inline-block align-text-top"> Efendioğlu Tekstil
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- 328. satır da collapse nin yanına "justify-content-center" yazıp menüyü ortaya yasladık-->
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+                <!-- href lerdeki # işaretinin yanına id ismi verdik.. menu hakkimizda Şirketlerimiz ürünnlerimiz iletisim-->
+                <ul class="navbar-nav header">
+
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="index.html">Ana Sayfa</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="hakkimizdatr.html">Hakkımızda</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="urunlerimiztr.html">Ürünlerimiz</a>
+                    </li>
+
+					<li class="nav-item">
+                        <a class="nav-link text-white" href="showroomtr.html">Showroom</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="iletisimtr.html">İletişim</a>
+                    </li>
+
+                    
+
+                </ul>
+            </div>
+            <div class="contact text-center text-lg-end">
+				<ul class="list-inline mb-0">
+				  <li class="list-inline-item ">
+					<span>
+						<a  class="text" href="tel:(+90)2242115726"><i class="fa fa-mobile"></i>&nbsp; (+90) 224 211 5726</a>
+					</span>
+				  </li>
+				  <li class="list-inline-item">
+					<a href="https://www.facebook.com/grassfences" target="_blank">
+						<i class="fab fa-facebook"></i>&nbsp;
+					</a>
+				  </li>
+				  <li class="list-inline-item">
+					<a href="https://www.instagram.com/bengibaklava/" target="_blank">
+					  <i class="fab fa-instagram"></i>&nbsp;
+					</a>
+				  </li>
+				  <li class="list-inline-item">
+					<a href="https://www.facebook.com/grassfences" target="_blank">
+						<i class="fab fa-twitter"></i>&nbsp;
+					</a>
+				  </li>
+				</ul>
+			</div>
+        </div>
+    </nav>
+
+    <!-- Menü Kısmı Bitiş-->
+
+
+<!--Navbar Menü Bitiş-->
+
+
+<!-- Slider Başlangıç-->
+
+<div class="container-fluid p-0 overflow-hidden">
+	
+	<div class="row">
+		<div class="col">
+			<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+				<div class="carousel-indicators">
+					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 3"></button>
+				</div>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img src="img/2.jpg" class="d-block w-100 color-black resimSlider" alt="...">
+					</div>
+					<div class="carousel-item flex-column">
+						<img src="img/4.jpg"  class="d-block w-100 resimSlider" alt="...">
+					</div>
+					<div class="carousel-item flex-column">
+						<img src="img/6.jpg"  class="d-block w-100 resimSlider" alt="...">
+					</div>
+					<div class="carousel-item flex-column">
+						<img src="img/5.jpg"  class="d-block w-100 resimSlider" alt="...">
+					</div>
+				</div>
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+				  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				  <span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+				  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				  <span class="visually-hidden">Next</span>
+			</button>
+		</div>
+	</div>
+</div>
+
+<!-- Slider Bitiş-->
+
+<!--Ürünler Başlangıç -->
+
+<div class="product-tabs bg-custom-light mt-3 ">
+	<div class="container py-3">
+		<div class="row">
+			<div class="col-12">
+				<ul class="nav nav-tabs justify-content-end flex-column flex-sm-row" id="myTab" role="tablist">
+				  <li class="nav-item">
+					<a class="nav-link active rounded-0" id="home-tab" data-bs-toggle="tab" href="#home" role="tab"><h6 class="tikle">FONLUK PERDELER</h6></a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link rounded-0" id="profile-tab" data-bs-toggle="tab" href="#profile" role="tab"><h6 class="tikle">TÜL PERDELER</h6></a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link rounded-0" id="contact-tab" data-bs-toggle="tab" href="#contact" role="tab"><h6 class="tikle">SHOWROOM</h6></a>
+				  </li>
+				</ul>
+
+                <div class="tab-content">
+                    <!--ÜRÜNLERİMİZ-->
+					<div class="tab-pane fade show active" id="home" role="tabpanel">
+						<div class="row py-3 ">
+
+							<div class="col-sm-6 col-lg-3 d-flex mb-3 mb-lg-0 mt-3">
+								<div class="card border-0">
+									<div class="card-body">
+										<img src="img/efendioğlu-tekstil-1.jpg" class="figure-img img-fluid rounded-0 shadow" alt="...">	
+										<a class="card-title text-dark" data-fslightbox="gallery" href="img/efendioğlu-tekstil-1.jpg">
+											<h6 class="card-title text-center">Fonluk Perde</h6>
+										</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-sm-6 col-lg-3 d-flex mb-3 mb-lg-0 mt-3">
+								<div class="card border-0">
+									<div class="card-body">
+										<img src="img/efendioğlu-tekstil-10.jpg" class="figure-img img-fluid rounded-0 shadow" alt="...">	
+										<a class="card-title text-dark" data-fslightbox="gallery" href="img/efendioğlu-tekstil-10.jpg">
+											<h6 class="card-title text-center">Fonluk Perde</h6>
+										</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-sm-6 col-lg-3 d-flex mb-3 mb-lg-0 mt-3">
+								<div class="card border-0">
+									<div class="card-body">
+										<img src="img/efendioğlu-tekstil-3.jpg" class="figure-img img-fluid rounded-0 shadow" alt="...">	
+										<a class="card-title text-dark" data-fslightbox="gallery" href="img/efendioğlu-tekstil-3.jpg">
+											<h6 class="card-title text-center">Fonluk Perde</h6>
+										</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-sm-6 col-lg-3 d-flex mb-3 mb-lg-0 mt-3">
+								<div class="card border-0">
+									<div class="card-body">
+										<img src="img/efendioğlu-tekstil-4.jpg" class="figure-img img-fluid rounded-0 shadow" alt="...">	
+										<a class="card-title text-dark" data-fslightbox="gallery" href="img/efendioğlu-tekstil-4.jpg">
+											<h6 class="card-title text-center">Fonluk Perde</h6>
+										</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-sm-6 col-lg-3 d-flex mb-3 mb-lg-0 mt-3">
+								<div class="card border-0">
+									<div class="card-body">
+										<img src="img/efendioğlu-tekstil-5.jpg" class="figure-img img-fluid rounded-0 shadow" alt="...">	
+										<a class="card-title text-dark" data-fslightbox="gallery" href="img/efendioğlu-tekstil-5.jpg">
+											<h6 class="card-title text-center">Fonluk Perde</h6>
+										</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-sm-6 col-lg-3 d-flex mb-3 mb-lg-0 mt-3">
+								<div class="card border-0">
+									<div class="card-body">
+										<img src="img/efendioğlu-tekstil-9.jpg" class="figure-img img-fluid rounded-0 shadow" alt="...">	
+										<a class="card-title text-dark" data-fslightbox="gallery" href="img/efendioğlu-tekstil-9.jpg">
+											<h6 class="card-title text-center">Fonluk Perde</h6>
+										</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-sm-6 col-lg-3 d-flex mb-3 mb-lg-0 mt-3">
+								<div class="card border-0">
+									<div class="card-body">
+										<img src="img/efendioğlu-tekstil-7.jpg" class="figure-img img-fluid rounded-0 shadow" alt="...">	
+										<a class="card-title text-dark" data-fslightbox="gallery" href="img/efendioğlu-tekstil-7.jpg">
+											<h6 class="card-title text-center">Fonluk Perde</h6>
+										</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-sm-6 col-lg-3 d-flex mb-3 mb-lg-0 mt-3">
+								<div class="card border-0">
+									<div class="card-body">
+										<img src="img/efendioğlu-tekstil-8.jpg" class="figure-img img-fluid rounded-0 shadow" alt="...">	
+										<a class="card-title text-dark" data-fslightbox="gallery" href="img/efendioğlu-tekstil-8.jpg">
+											<h6 class="card-title text-center">Fonluk Perde</h6>
+										</a>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+					<!--Tüllerimiz-->
+					<div class="tab-pane fade" id="profile" role="tabpanel">
+						<div class="row py-3">
+
+							<div class="col-sm-6 col-lg-3 d-flex mb-3 mb-lg-0 mt-3">
+								<div class="card border-0">
+									<div class="card-body">
+										<img src="img/efendioğlu-tekstil-55.jpeg" class="figure-img img-fluid rounded-0 shadow" alt="...">	
+										<a class="card-title text-dark" data-fslightbox="gallery" href="img/efendioğlu-tekstil-55.jpeg">
+											<h6 class="card-title text-center">Tül Perde</h6>
+										</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-sm-6 col-lg-3 d-flex mb-3 mb-lg-0 mt-3">
+								<div class="card border-0">
+									<div class="card-body">
+										<img src="img/efendioğlu-tekstil-48.jpeg" class="figure-img img-fluid rounded-0 shadow" alt="...">	
+										<a class="card-title text-dark" data-fslightbox="gallery" href="img/efendioğlu-tekstil-48.jpeg">
+											<h6 class="card-title text-center">Tül Perde</h6>
+										</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-sm-6 col-lg-3 d-flex mb-3 mb-lg-0 mt-3">
+								<div class="card border-0">
+									<div class="card-body">
+										<img src="img/efendioğlu-tekstil-49.jpeg" class="figure-img img-fluid rounded-0 shadow" alt="...">	
+										<a class="card-title text-dark" data-fslightbox="gallery" href="img/efendioğlu-tekstil-49.jpeg">
+											<h6 class="card-title text-center">Tül Perde</h6>
+										</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-sm-6 col-lg-3 d-flex mb-3 mb-lg-0 mt-3">
+								<div class="card border-0">
+									<div class="card-body">
+										<img src="img/efendioğlu-tekstil-50.jpeg" class="figure-img img-fluid rounded-0 shadow" alt="...">	
+										<a class="card-title text-dark" data-fslightbox="gallery" href="img/efendioğlu-tekstil-50.jpeg">
+											<h6 class="card-title text-center">Tül Perde</h6>
+										</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-sm-6 col-lg-3 d-flex mb-3 mb-lg-0 mt-3">
+								<div class="card border-0">
+									<div class="card-body">
+										<img src="img/efendioğlu-tekstil-65.jpeg" class="figure-img img-fluid rounded-0 shadow" alt="...">	
+										<a class="card-title text-dark" data-fslightbox="gallery" href="img/efendioğlu-tekstil-65.jpeg">
+											<h6 class="card-title text-center">Tül Perde</h6>
+										</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-sm-6 col-lg-3 d-flex mb-3 mb-lg-0 mt-3">
+								<div class="card border-0">
+									<div class="card-body">
+										<img src="img/efendioğlu-tekstil-56.jpeg" class="figure-img img-fluid rounded-0 shadow" alt="...">	
+										<a class="card-title text-dark" data-fslightbox="gallery" href="img/efendioğlu-tekstil-56.jpeg">
+											<h6 class="card-title text-center">Tül Perde</h6>
+										</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-sm-6 col-lg-3 d-flex mb-3 mb-lg-0 mt-3">
+								<div class="card border-0">
+									<div class="card-body">
+										<img src="img/efendioğlu-tekstil-58.jpeg" class="figure-img img-fluid rounded-0 shadow" alt="...">	
+										<a class="card-title text-dark" data-fslightbox="gallery" href="img/efendioğlu-tekstil-58.jpeg">
+											<h6 class="card-title text-center">Tül Perde</h6>
+										</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-sm-6 col-lg-3 d-flex mb-3 mb-lg-0 mt-3">
+								<div class="card border-0">
+									<div class="card-body">
+										<img src="img/efendioğlu-tekstil-61.jpeg" class="figure-img img-fluid rounded-0 shadow" alt="...">	
+										<a class="card-title text-dark" data-fslightbox="gallery" href="img/efendioğlu-tekstil-61.jpeg">
+											<h6 class="card-title text-center">Tül Perde</h6>
+										</a>
+									</div>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+
+                    <!--SHOWROOM-->
+					<div class="tab-pane fade" id="contact" role="tabpanel">
+						<div class="row py-3">
+							<div class="col-sm-6 col-lg-3 d-flex mb-3 mb-lg-0 mt-3">
+								<div class="card border-0">
+									<div class="card-body">
+										<img src="img/efendioğlu-tekstil-96.jpg" class="figure-img img-fluid rounded-0 shadow" alt="...">	
+										<a class="card-title text-dark" data-fslightbox="gallery" href="img/efendioğlu-tekstil-96.jpg">
+											<h6 class="card-title text-center">Showroom</h6>
+										</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-sm-6 col-lg-3 d-flex mb-3 mb-lg-0 mt-3">
+								<div class="card border-0">
+									<div class="card-body">
+										<img src="img/efendioğlu-tekstil-97.jpg" class="figure-img img-fluid rounded-0 shadow" alt="...">	
+										<a class="card-title text-dark" data-fslightbox="gallery" href="img/efendioğlu-tekstil-97.jpg">
+											<h6 class="card-title text-center">Showroom</h6>
+										</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-sm-6 col-lg-3 d-flex mb-3 mb-lg-0 mt-3">
+								<div class="card border-0">
+									<div class="card-body">
+										<img src="img/efendioğlu-tekstil-98.jpg" class="figure-img img-fluid rounded-0 shadow" alt="...">	
+										<a class="card-title text-dark" data-fslightbox="gallery" href="img/efendioğlu-tekstil-98.jpg">
+											<h6 class="card-title text-center">Showroom</h6>
+										</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-sm-6 col-lg-3 d-flex mb-3 mb-lg-0 mt-3">
+								<div class="card border-0">
+									<div class="card-body">
+										<img src="img/efendioğlu-tekstil-99.jpg" class="figure-img img-fluid rounded-0 shadow" alt="...">	
+										<a class="card-title text-dark" data-fslightbox="gallery" href="img/efendioğlu-tekstil-99.jpg">
+											<h6 class="card-title text-center">Showroom</h6>
+										</a>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Ürünler Bitiş --> 
+
+
+<!-- Bengi Baklava Slider Başlangıç -->
+
+<div class="latest-blog mb-5 mt-3">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<div class="heading d-flex justify-content-between">
+					<span>EFENDİOĞLU TEKSTİL</span>
+					<div class="customNavigation">
+						<button class="btn btn-sm rounded-0 prev  btn-dark ">
+							<i class="fas fa-angle-left fa-lg"></i>
+						</button>
+						<button class="btn btn-sm rounded-0 next btn-dark">
+							<i class="fas fa-angle-right fa-lg"></i>
+						</button>
+					</div>
+				</div>
+			</div>
+			<div class="owl-carousel owl-theme">
+				<div class="col-12">
+					<div class="item">
+						<a >
+							<img class="img-fluid" src="img/Efendioğlu-Tekstil-Üretim-001-1024x768.jpg" alt="..." />
+						</a>
+						
+					</div>	
+				</div>
+				<div class="col-12">
+					<div class="item">
+						<a >
+							<img class="img-fluid" src="img/Efendioğlu-Tekstil-Üretim-002-1024x768.jpg" alt="..." />
+						</a>
+						
+					</div>	
+				</div>
+				<div class="col-12">
+					<div class="item">
+						<a >
+							<img class="img-fluid" src="img/Efendioğlu-Tekstil-Üretim-003-1024x768.jpg" alt="..." />
+						</a>
+						
+					</div>	
+				</div>
+				<div class="col-12">
+					<div class="item">
+						<a >
+							<img class="img-fluid" src="img/Efendioğlu-Tekstil-Üretim-004-1024x768.jpg" alt="..." />
+						</a>
+						
+					</div>	
+				</div>
+				<div class="col-12">
+					<div class="item">
+						<a >
+							<img class="img-fluid" src="img/Efendioğlu-Tekstil-Üretim-005-1024x768.jpg" alt="..." />
+						</a>
+						
+					</div>	
+				</div>
+				<div class="col-12">
+					<div class="item">
+						<a >
+							<img class="img-fluid" src="img/Efendioğlu-Tekstil-Üretim-006-1024x831.jpg" alt="..." />
+						</a>
+					
+					</div>	
+				</div>
+				<div class="col-12">
+					<div class="item">
+						<a >
+							<img class="img-fluid" src="img/Efendioğlu-Tekstil-Üretim-007-1024x768.jpg" alt="..." />
+						</a>
+						
+					</div>	
+				</div>
+				<div class="col-12">
+					<div class="item">
+						<a >
+							<img class="img-fluid" src="img/Efendioğlu-Tekstil-Üretim-008-1024x768.jpg" alt="..." />
+						</a>
+						
+					</div>	
+				</div>
+				<div class="col-12">
+					<div class="item">
+						<a >
+							<img class="img-fluid" src="img/Efendioğlu-Tekstil-Üretim-009-1024x768.jpg" alt="..." />
+						</a>
+						
+					</div>	
+				</div>
+			</div>		
+			<!-- <div class="col-md-6 col-lg-4 mb-3">
+				<div class="item">
+					<a href="JavaScript:void(0);">
+						<img class="img-fluid" src="img/slide3.jpg" alt="..." />
+					</a>
+					<div class="post-text">
+						<div class="bloginfo">
+							<span class="d-block">11</span>
+							<span class="d-block">Mar</span>
+						</div>
+						<h5><a href="#">Upon Of Seasons Earth Dominion</a></h5>
+						<p class="desc">
+							 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy te...
+						</p>
+					</div>
+				</div>	
+			</div> -->
+		</div>
+	</div>
+</div>
+
+<!-- Bengi Baklava Slider Bitiş -->
+
+
+
+<!--Footer Başlangıç-->
+<footer>
+	<div class="container">
+		
+		<div class="row">
+			<div class="col-12">
+				<hr />
+			</div>
+			<div class="col-sm-12 col-md-12 col-lg-5 ">
+				<h5>EFENDİOĞLU TEKSTİL</h5>
+				<!--<img src="img/footer-logo.png" alt="" class="img-fluid" />-->
+				<div class="footerdesc my-3">Efendioğlu Tekstil, <br> BUTTİM (Bursa Uluslararası Tekstil Ticaret Merkezi) <br>
+					de bulunan showroom’unda siz değerli müşterileri için en kaliteli ürünleri sunmaya devam ediyor. <br>
+					Sektöründe 12 yılı aşkın bir bilgi birikimine <br> ve deneyimine sahip firmamız <br>
+					Türkiye’nin tüm il ve ilçelerine ürünleri ulaştırmaktadır.</div>
+				<div class="social">
+					<ul class="list-inline">
+						<li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+						<li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.instagram.com/bengibaklava/" target="_blank "><i class="fab fa-instagram"></i></a></li>
+						<li class="list-inline-item"><a href="#"><i class="fab fa-youtube"></i></a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="col-sm-6 col-md-4 col-lg-3 ">
+				<h5>Kurumsal</h5>
+				<ul class="list-unstyled footer-menu">
+					<li><a href="index.html"><i class="fas fa-angle-right"></i>&nbsp; Ana Sayfa</a></li>
+					<li><a href="hakkimizdatr.html"><i class="fas fa-angle-right"></i>&nbsp; Hakkımızda</a></li>
+					<li><a href="urunlerimiztr.html"><i class="fas fa-angle-right"></i>&nbsp; Ürünlerimiz</a></li>
+					<li><a href="showroomtr.html"><i class="fas fa-angle-right"></i>&nbsp; Showroom</a></li>
+					<li><a href="iletisimtr.html"><i class="fas fa-angle-right"></i>&nbsp; İletişim</a></li>
+				</ul>
+			</div>
+
+			<div class="col-sm-6 col-md-4 col-lg-4">
+				<h5>Adres</h5>
+				<ul class="list-unstyled footer-menu justify-content-end">
+					<li class="foot">Adres :<br>
+						<span style="color: #666;">Yeni Yalova Yolu Cad. <br> Buttim İş Merkezi <br> D Blok Kat: 1 No: 246 <br> Osmangazi BURSA / TÜRKİYE </span>
+					</li>
+					<br>
+					<li class="foot">
+						Email 1 : <br>
+						<span>
+						<a href="/cdn-cgi/l/email-protection#96fff8f0f9d6f7fafff7b8f5f9fb">
+							<span class="__cf_email__ text" data-cfemail="224b4c444d62434e4b430c414d4f">
+								info@efendioglutekstil.com
+							</span>
+						</a>
+						</span>
+					</li>
+					<li class="foot">
+						Email 2 : <br>
+						<span>
+						<a href="/cdn-cgi/l/email-protection#96fff8f0f9d6f7fafff7b8f5f9fb">
+							<span class="__cf_email__ text" data-cfemail="224b4c444d62434e4b430c414d4f">
+								info@dosemelikperdelik.com
+							</span>
+						</a>
+						</span>
+					</li>
+					<br>
+					<li class="foot">
+						Tel:
+						<span>
+						  <a  class="text" href="tel:(+90)2242115726">(+90) 224 211 5726</a>
+						</span>
+					</li>
+				</ul>
+			</div>
+
+			
+
+		<div class="row align-items-center mb-2">
+			<div class="col-12">
+				<hr class="my-2"/>
+			</div>
+			<div>
+				Copyright © 2022 Efendioğlu Tekstil. 
+				Tüm hakları Saklıdır.
+			</div>
+			
+		</div>
+	</div>
+</footer>
+
+<!--Footer Bitiş-->
+
+
+<!--Js Dosyaları Ekleme-->
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="fslightbox.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+<!--JQuery Nice-select Ekleme-->
+<script src="plugins/jquery-nice-select/js/jquery.nice-select.js"></script>
+<!--Owlcarousel Ekleme-->
+<script src="plugins/owlcarousel/owl.carousel.min.js"></script>
+<!--Downcount Ekleme-->
+<script src="plugins/downcount/downcount.js"></script>
+<!--Wow Ekleme-->
+<script src="plugins/wow/wow.min.js"></script>
+<script> new WOW().init();</script>
+
+<script src="site.js"></script>
+</body>
+</html>
